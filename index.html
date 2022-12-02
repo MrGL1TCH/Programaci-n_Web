@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Proyecto</title>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Creación del header para ayudar la navegación del usuario -->
+    <header class="l-header" id="header">
+
+        <nav class="nav espacio-contenedor">
+            <a href="#" class="nav_logo">Restaurante X</a>
+            <div class="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#inicio" class="nav_link active-link">Inicio</a></li>
+                    <li class="nav_item"><a href="#acerca" class="nav_link">Nosotros</a></li>
+                    <li class="nav_item"><a href="#menu" class="nav_link">Menú</a></li>
+                    <li class="nav_item"><a href="#galeria" class="nav_link">Galería</a></li>
+                    <li class="nav_item"><a href="#contacto" class="nav_link">Contacto</a></li>
+                </ul>
+            </div>
+        
+            <div class="nav_toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+<!-- Sección de Inicio -->
+    <main class="l-main">
+
+        <section class="inicio" id="inicio">
+            <div class="inicio_contenedor espacio_contenedor espacio-grid">
+                <div class="inicio_texto">
+                    <h1 class="inicio_title">Restaurante X</h1>
+                    <h2 class="inicio_subtitle">Los platillos más deliciosos del mundo</h2>
+                    <a href="#menu" class="boton">Ver Menu</a>
+                </div>
+            </div>
+        </section>
+
+<!-- Sección de info -->
+        <section class="acerca section espacio-contenedor" id="acerca">
+            <div class="acerca_contenedor espacio-grid">
+                <div class="acerca_texto">
+                    <span class="section-subtitle acerca_initial">Nosotros</span>
+                    <h2 class="section-title acerca_initial">El mejor restaurante del mundo</h2>
+                    <p class="acerca_descripcion">Hemos trabajado por años siendo el mejor restaurante de nuestro tipo "y texto texto texto de que el restaurante es bueno" Tenemos el perfecto ambiente para ti.</p>
+                    <a href="#galeria" class="boton">Conocer</a>
+                </div>
+                <div class="acerca_texto">
+                    <img src="img/Comidainicio.jpg" alt="" class="acerca_img">
+                </div>
+            </div>
+        </section>
+
+<!-- Sección de menú -->
+        <section class="menu section espacio-contenedor" id="menu">
+            <span class="section-subtitle">Menú</span>
+            <!-- Menú de comidita -->
+            <h2 class="section-title">Menú comida</h2>
+            <div class="menu_contenedor espacio-grid">
+
+                <div class="menu_content">
+                    <img src="img/comida1.webp" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre de la comida</h3>
+                    <span class="menu_detail">Chico / Mediano / Grande</span>
+                    <span class="menu_preci">$10.00</span>
+                    <!-- bx bx-cart-alt es el icnono de carrito de compras -->
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Comida2.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre de la comida</h3>
+                    <span class="menu_detail">Chico / Mediano / Grande</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Comida3.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre de la comida</h3>
+                    <span class="menu_detail">Chico / Mediano / Grande</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/comida1.webp" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre de la comida</h3>
+                    <span class="menu_detail">Chico / Mediano / Grande</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Comida2.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre de la comida</h3>
+                    <span class="menu_detail">Chico / Mediano / Grande</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Comida3.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre de la comida</h3>
+                    <span class="menu_detail">Chico / Mediano / Grande</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                
+            </div>
+            <!-- Menú de bebidas -->
+            <h2 class="section-title">Menú bebidas</h2>
+            <div class="menu_contenedor espacio-grid">
+
+                <div class="menu_content">
+                    <img src="img/Bebida1.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre de la bebida</h3>
+                    <span class="menu_detail">Chico / Mediano / Grande</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Bebida2.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre de la bebida</h3>
+                    <span class="menu_detail">Chico / Mediano / Grande</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Bebida3.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre de la bebida</h3>
+                    <span class="menu_detail">Chico / Mediano / Grande</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Bebida1.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre de la bebida</h3>
+                    <span class="menu_detail">Chico / Mediano / Grande</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Bebida2.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre de la bebida</h3>
+                    <span class="menu_detail">Chico / Mediano / Grande</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Bebida3.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre de la bebida</h3>
+                    <span class="menu_detail">Chico / Mediano / Grande</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                
+            </div>
+
+            <!-- Menú de Postres -->
+            <h2 class="section-title">Menú postres</h2>
+            <div class="menu_contenedor espacio-grid">
+
+                <div class="menu_content">
+                    <img src="img/Postre1.webp" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre del postre</h3>
+                    <span class="menu_detail">Chico / Mediano / Grande</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Postre2.webp" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre del postre</h3>
+                    <span class="menu_detail">Chico / Mediano / Grande</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Postre3.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre del postre</h3>
+                    <span class="menu_detail">Chico / Mediano / Grande</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Postre1.webp" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre del postre</h3>
+                    <span class="menu_detail">Chico / Mediano / Grande</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Postre2.webp" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre del postre</h3>
+                    <span class="menu_detail">Chico / Mediano / Grande</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Postre3.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre del postre</h3>
+                    <span class="menu_detail">Chico / Mediano / Grande</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                
+            </div>
+
+            <!-- Menú de Paquetes -->
+            <h2 class="section-title">Menú paquetes</h2>
+            <div class="menu_contenedor espacio-grid">
+
+                <div class="menu_content">
+                    <img src="img/Paquete1.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre del paquete</h3>
+                    <span class="menu_detail">De 2 a 12 familiares</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Paquete2.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre del paquete</h3>
+                    <span class="menu_detail">De 2 a 6 familiares</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Paquete3.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre del paquete</h3>
+                    <span class="menu_detail">De 2 a 4 familiares</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Paquete1.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre del paquete</h3>
+                    <span class="menu_detail">De 2 a 8 familiares</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Paquete2.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre del paquete</h3>
+                    <span class="menu_detail">De 2 a 12 familiares</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Paquete3.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre del paquete</h3>
+                    <span class="menu_detail">De 2 a 6 familiares</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                
+            </div>
+
+            <!-- Menú de Cupones -->
+            <h2 class="section-title">Cupones</h2>
+            <div class="menu_contenedor espacio-grid">
+
+                <div class="menu_content">
+                    <img src="img/Cupon2.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre del cupon</h3>
+                    <span class="menu_detail">Para que sirve</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Cupon3.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre del cupon</h3>
+                    <span class="menu_detail">Para que sirve</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Cupon1.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre del cupon</h3>
+                    <span class="menu_detail">Para que sirve</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Cupon2.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre del cupon</h3>
+                    <span class="menu_detail">Para que sirve</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Cupon3.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre del cupon</h3>
+                    <span class="menu_detail">Para que sirve</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/Cupon1.jpg" class="menu_img" alt="">
+                    <h3 class="menu_name">Nombre del cupon</h3>
+                    <span class="menu_detail">Para que sirve</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="boton menu_boton"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="galeria section espacio-contenedor" id="galeria">
+            <span class="section-subtitle">Ofrecemos</span>
+            <h2 class="section-title">Nuestra maravillosa galeria</h2>
+            <div class="galeria_contenedor espacio-grid">
+                <div class="galeria_content">
+                    <img src="img/Galeria1.jpg" class="galeria_img" alt="">
+                    <h3 class="galeria_title">Sucursal Oeste</h3>
+                    <p class="galeria_descripcion">Inserto texto para todos estás fotitos wonitas</p>
+                </div>
+                <div class="galeria_content">
+                    <img src="img/Galeria2.webp" class="galeria_img" alt="">
+                    <h3 class="galeria_title">Sucursal Sur</h3>
+                    <p class="galeria_descripcion">Inserto texto para todos estás fotitos wonitas</p>
+                </div>
+                <div class="galeria_content">
+                    <img src="img/Galeria3.jpg" class="galeria_img" alt="">
+                    <h3 class="galeria_title">Sucursal Mediterraneo</h3>
+                    <p class="galeria_descripcion">Inserto texto para todos estás fotitos wonitas</p>
+                </div>
+                <div class="galeria_content">
+                    <img src="img/Galeria4.jpg" class="galeria_img" alt="">
+                    <h3 class="galeria_title">Sucursal Norte</h3>
+                    <p class="galeria_descripcion">Inserto texto para todos estás fotitos wonitas</p>
+                </div>
+                <div class="galeria_content">
+                    <img src="img/Galeria7.jpg" class="galeria_img" alt="">
+                    <h3 class="galeria_title">Sucursal noroeste</h3>
+                    <p class="galeria_descripcion">Inserto texto para todos estás fotitos wonitas</p>
+                </div>
+                <div class="galeria_content">
+                    <img src="img/Galeria5.jpg" class="galeria_img" alt="">
+                    <h3 class="galeria_title">Sucursal suroeste</h3>
+                    <p class="galeria_descripcion">Inserto texto para todos estás fotitos wonitas</p>
+                </div>
+                <div class="galeria_content">
+                    <img src="img/Galeria6.jpg" class="galeria_img" alt="">
+                    <h3 class="galeria_title">Sucursal norooeste</h3>
+                    <p class="galeria_descripcion">Inserto texto para todos estás fotitos wonitas</p>
+                </div>
+                <div class="galeria_content">
+                    <img src="img/Galeria8.jpg" class="galeria_img" alt="">
+                    <h3 class="galeria_title">Sucursal suroeste</h3>
+                    <p class="galeria_descripcion">Inserto texto para todos estás fotitos wonitas</p>
+                </div>
+        </section>
+
+        <section class="contacto section espacio-contenedor" id="contacto">
+            <div class="contacto_contenedor espacio-grid">
+                <div class="contacto_texto"> 
+                    <span class="section-subtitle contacto_initial">Visitanos</span>
+                    <h2 class="section-title contacto_initial">Contacto</h2>
+                    <p class="contacto_descripcion">Sucursales ubiacadas en: xxxxxx, teléfono: 44444444
+                    </p>
+                </div>
+                <div class="contacto_boton">
+                    <a href="#" class="boton">Contactanos</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer section espacio-contenedor">
+        <div class="footer_contenedor espacio-grid">
+            <div class="footer_content">
+                <a href="#" class="footer_logo">Comida</a>
+                <span class="footer_descripcion">Restaurante</span>
+                <div>
+                    <!-- bx bxl-"" son iconos para las redes sociales -->
+                    <a href="#" class="footer_social"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="footer_social"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="footer_social"><i class="bx bxl-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer_content">
+                <h3 class="footer_title">Horarios</h3>
+                <ul>
+                    <li><a href="#" class="footer_link">Programación</a></li>
+                    <li><a href="#" class="footer_link">Programación</a></li>
+                    <li><a href="#" class="footer_link">Programación</a></li>
+                    <li><a href="#" class="footer_link">Programación</a></li>
+                </ul>
+            </div>
+            <div class="footer_content">
+                <h3 class="footer_title">Información</h3>
+                <ul>
+                    <li><a href="#" class="footer_link">Web</a></li>
+                    <li><a href="#" class="footer_link">Web</a></li>
+                    <li><a href="#" class="footer_link">Web</a></li>
+                    <li><a href="#" class="footer_link">Web</a></li>
+                </ul>
+            </div>
+            <div class="footer_content">
+                <h3 class="footer_title">Direccion</h3>
+                <ul>
+                    <li>I</li+>
+                    <li>I</li>
+                    <li>I</li>
+                    <li>I</li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer_copy">&#169; 2022 Restaurante</p>
+
+    </footer>
+    
+</body>
+</html>
